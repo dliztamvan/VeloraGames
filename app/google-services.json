@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "707316056245",
+    "project_id": "vloragame-2806e",
+    "storage_bucket": "vloragame-2806e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707316056245:android:51ca13bf197d3a5358fefc",
+        "android_client_info": {
+          "package_name": "com.veloragames.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF2PeWIOtWSLjW_706glPBzkcBUi8hDfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
