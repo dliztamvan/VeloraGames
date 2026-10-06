@@ -1,0 +1,24 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.velora.games'
+    compileSdk 35
+
+    defaultConfig {
+        // Must match the package_name in google-services.json
+        applicationId 'com.veloragames.app'
+        minSdk 26
+        targetSdk 35
+        versionCode 15
+        versionName '15.0'
+    }
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:34.19.0')
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'androidx.core:core:1.17.0'
+}
