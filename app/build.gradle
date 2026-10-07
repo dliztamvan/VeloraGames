@@ -5,13 +5,13 @@ plugins {
 
 android {
     namespace 'com.velora.games'
-    compileSdk 35
+    compileSdk 36
 
     defaultConfig {
         // Must match the package_name in google-services.json
         applicationId 'com.veloragames.app'
         minSdk 26
-        targetSdk 35
+        targetSdk 36
         versionCode 15
         versionName '15.0'
     }
